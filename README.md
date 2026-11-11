@@ -103,7 +103,6 @@ These are the identifying items in the full outputs. None of them appear in `sha
 | **ART / ARV numbers** | `art_number`, `arv_number_identifier`, `other_programs_art_number` |
 | **Other identifiers**: `mother_identifier`, national and other ID numbers | Neonatal records |
 | **Phone numbers** | `phone_number` (L&D) |
-| **Patient and mother ids** | `person_id`, `related_person_ids`, `encounter_id` |
 | **Dates and place** | `birthdate`, visit and delivery dates |
 | **Free text** (can contain anything, including names) | notes, "specify" and comment columns |
 | **HIV and ART status** | sensitive health information, row-level |
