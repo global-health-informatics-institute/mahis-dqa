@@ -14,8 +14,8 @@ import pandas as pd
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "shared")
 KEEP = re.compile(r"(Overall|Field_Summary|Not_In_Pivot|Not_Assessable)", re.I)
-BLOCKED_COLUMNS = {"person_id", "encounter_id", "location_id", "birthdate", "mother_name", "mother_identifier", "phone_number",
-                   "identifier", "related_person_ids", "clinician_notes", "arv_number_identifier", "art_number", "visit_date"}
+BLOCKED_COLUMNS = {"mother_name", "mother_identifier", "phone_number",
+                   "identifier", "clinician_notes", "arv_number_identifier", "art_number"}
 BLOCKED_VALUE = re.compile(r"ARV-?\d|NEONATAL_SIGNOFF|electronicSignature", re.I)
 
 workbooks = sorted(glob.glob(os.path.join(ROOT, "*", "dqa", "output", "*_summary.xlsx")))
