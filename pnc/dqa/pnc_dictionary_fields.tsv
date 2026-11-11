@@ -1,0 +1,153 @@
+page	label	name	required	relevance
+1	Date of delivery	pnc_del_date_delivery	No	
+1	Time of delivery	pnc_del_time_delivery	No	
+1	Mode of delivery	pnc_del_mode_delivery	No	
+1	Specify	pnc_del_other_mode_delivery_notes	No	
+1	Place of delivery	pnc_del_place_delivery	No	
+1	Staff conducting delivery	pnc_del_staff_conducting_delivery	No	
+1	Other staff conducting delivery	pnc_del_other_staff	No	
+1	What was the outcome of the delivery?	pnc_del_outcome_delivery	No	
+1	Type of still birth?	pnc_del_type_still_birth	No	
+1	Total number of babies	pnc_del_number_babies	No	
+1	First name	pnc_del_first_name	No	
+1	Last name	pnc_del_last_name	No	
+1	Baby weight	pnc_del_weight	No	
+1	Baby height	pnc_del_height	No	
+1	APGAR score at 5 minute	pnc_del_apgar_score_5_minute	No	
+1	Any Newborn complications?	pnc_del_newborn_baby_complications	No	
+1	Was resuscitation attempted?	pnc_del_resuscitation_attempt	No	Shown when selection includes 'Asphyxia'
+1	Type of resuscitation? OBSTETRIC DETAILS	pnc_del_type_resuscitation	No	Shown when selection includes 'Asphyxia'
+1	Gravida	pnc_ob_gravida	No	
+1	Parity	pnc_ob_parity	No	
+1	Any past pregnancy problems	pnc_ob_past_pregnancy_problems	No	
+1	Specify HIV STATUS & TREATMENT	pnc_ob_other_problems_notes	No	Shown when selection includes 'Other problems'
+1	HIV status of woman	pnc_hiv_mother_hiv_status	Yes	
+1	Is the woman started on ART	pnc_hiv_art_treatment	No	
+1	ART Clinic number	pnc_hiv_art_number	No	
+1	New HIV test result in postnatal	pnc_hiv_new_hiv_status	Yes	
+1	Has the woman started ART treatment?	pnc_hiv_started_art_treatment	Yes	
+1	ART clinic number POSTNATAL WARD MONITORING - MOTHER	pnc_hiv_art_clinic_registration_number	Yes	
+1	Danger signs	pnc_ward_mom_danger_signs	No	
+1	Specify	pnc_ward_mom_other_danger_signs_n	No	Shown when selection includes 'Other danger signs'
+1	Status of uterus	pnc_ward_mom_status_uterus	No	
+1	Specify	pnc_ward_mom_status_uterus_notes	No	
+1	Was the intervention given?	pnc_ward_mom_intervention_given	No	
+1	Describe the intervention given?	pnc_ward_mom_interventions_provide	No	
+1		d_notes	No	
+1	Type of lochia	pnc_ward_mom_status_lochia	No	
+1	Specify	pnc_ward_mom_status_lochia_notes	No	Shown when selection includes 'Other status'
+1	Was the intervention given?	pnc_ward_mom_intervention_lochia	No	
+1	Describe the intervention given?	pnc_ward_mom_intervention_lochia_n	No	
+1	Episiotomy/tear present?	pnc_ward_mom_episiotomy_tear	No	
+1	Condition of episiotomy/tear?	pnc_ward_mom_condition_episiotomy	No	
+1	Was the intervention given?	pnc_ward_mom_intervention_episioto	No	
+1		my_tear	No	
+1	Describe the intervention given?	pnc_ward_mom_intervention_tear_epis	No	
+1		iotomy_notes	No	
+1	Are any of the postnatal complications	pnc_ward_mom_postnatal_complicatio	No	
+1	present for the mother Specify	pnc_ward_mom_other_postnatal_comp	No	Shown when selection includes 'Other complications'
+1		lications_notes	No	
+1	Was the intervention given for the	pnc_ward_mom_interventions_complic	No	
+1	complications? Describe the intervention given?	pnc_ward_mom_intervention_complica	No	
+1		tions_notes	No	
+1	Vitamin A supplementation given?	pnc_ward_mom_vitamin_supplementat	No	
+1	Breast feeding?	pnc_ward_mom_breast_feeding	No	
+1	Systolic Pressure	pnc_ward_mom_systolic_blood_pressu	Yes	
+1	Diastolic pressure	pnc_ward_mom_diastolic_blood_press	Yes	
+1	Pulse rate	pnc_ward_mom_pulse	Yes	
+1	Temperature	pnc_ward_mom_temperature	Yes	
+1	Respiratory rate	pnc_ward_mom_respiratory_rate	Yes	
+1	Oxygen saturation POSTNATAL WARD MONITORING - BABY	pnc_ward_mom_oxygen_saturation	Yes	
+1	What is the status of the baby?	pnc_ward_baby_status_baby	No	
+1	Full name of the baby	pnc_ward_baby_full_name_baby	No	
+1	Baby sex?	pnc_ward_baby_sex	No	
+1	Birth weight	pnc_ward_baby_weight	No	
+1	Current weight	pnc_ward_baby_current_weight	No	
+1	Is the birth weight low?	pnc_ward_baby_low_birth_weight	No	
+1	Prematurity/Kangaroo?	pnc_ward_baby_prematurity_kangaroo	No	
+1	What is the condition at birth?	pnc_ward_baby_birth_condition	No	
+2	Resuscitation tempted	pnc_ward_baby_resuscitation_attempt	No	
+2	Is the visit within	pnc_ward_baby_visit_within	No	
+2	What type immunisation has been given?	pnc_ward_baby_immunisation_given	No	
+2	Date BCG given	pnc_ward_baby_date_bcg_given	No	Shown when selection includes 'bcg'
+2	Date polio given	pnc_ward_baby_date_polio_given	No	Shown when selection includes 'polio'
+2	Tetracycline eye ointment given?	pnc_ward_baby_tetracycline_eye_oint	No	
+2	Cord care (Chlorhexidine) used?	pnc_ward_baby_cord_care	No	
+2	Vitamin K given?	pnc_ward_baby_vitamin_k_given	No	
+2	Danger signs	pnc_ward_baby_danger_signs	No	
+2	Specify	pnc_ward_baby_other_danger_signs_n	No	Shown when selection includes 'Other danger signs'
+2	Describe the intervention	pnc_ward_baby_intervention_notes	No	Shown when selection includes 'none'
+2	Nevirapine given?	pnc_ward_baby_nevirapine_given	No	
+2	Cotrimoxazole prophylaxis? POSTNATAL VISIT - MOTHER	pnc_ward_baby_cotrimoxazole_prophy	No	
+2	What is the status of the mother?	pnc_visit_mom_status_mother	No	
+2	Is the postnatal check within?	pnc_visit_mom_postnatal_check_perio	No	
+2	Does the woman have any of the danger	pnc_visit_mom_danger_signs	No	
+2	signs? Specify	pnc_visit_mom_other_danger_signs_no	No	Shown when selection includes 'Other danger signs'
+2	Status of uterus	pnc_visit_mom_status_uterus	No	
+2	Specify	pnc_visit_mom_status_uterus_notes	No	
+2	Was the intervention given?	pnc_visit_mom_intervention_uterus_pr	No	
+2	Describe the intervention given?	pnc_visit_mom_intervention_provided_	No	
+2	Status of lochia	pnc_visit_mom_status_lochia	No	
+2	Specify	pnc_visit_mom_status_lochia_notes	No	
+2	Was the intervention given?	pnc_visit_mom_intervention_lochia	No	
+2	Describe the intervention given?	pnc_visit_mom_intervention_lochia_no	No	
+2	Episiotomy/tear present?	pnc_visit_mom_episiotomy_tear	No	
+2	Condition of episiotomy/tear?	pnc_visit_mom_condition_episiotomy_	No	
+2	Was the intervention given?	pnc_visit_mom_intervention_condition	No	
+2	Describe the intervention given?	pnc_visit_mom_other_notes	No	
+2	Counselling on family planning done?	pnc_visit_mom_counselling_family_pl	No	
+2	Postpartum family planning method chosen	pnc_visit_mom_postpartum_family_pla	No	
+2		nning_method	No	
+2	Breast feeding? POSTNATAL VISIT - BABY	pnc_visit_mom_breast_feeding	No	
+2	What is the status of the baby?	pnc_visit_baby_status_baby	No	
+2	Current weight	pnc_visit_baby_current_weight	No	
+2	Current Temperature	pnc_visit_baby_temperature	No	
+2	Respiratory rate	pnc_visit_baby_respiratory_rate	No	
+2	Heart rate	pnc_visit_baby_heart_rate	No	
+2	Oxygen Saturation Rate	pnc_visit_baby_oxygen_saturation_rate	No	
+2	Is the postnatal visit within	pnc_visit_baby_postnatal_visit_period	No	
+2	Has the baby received the following	pnc_visit_baby_type_immunisation_ba	No	
+2		by_received	No	
+2	immunisations? Date BCG given	pnc_visit_baby_date_bcg_given	No	Shown when selection includes 'BCG'
+2	Date polio given	pnc_visit_baby_date_polio_given	No	Shown when selection includes 'Polio'
+2	Danger signs for the child	pnc_visit_baby_danger_signs	No	
+2	Specify	pnc_visit_baby_other_danger_signs_no	No	Shown when selection includes 'Other danger signs'
+2	Was an intervention given?	pnc_visit_baby_intervention_danger_si	No	
+2	Describe the intervention	pnc_visit_baby_intervention_danger_si	No	
+2		gns_notes	No	
+2	Has the baby started nevirapine?	pnc_visit_baby_nevirapine_started	No	
+2	Why the baby is not on neverapine?	pnc_visit_baby_neverapine_not_started	No	
+2	Date of Death	pnc_visit_baby_date_death	No	
+2	Time of Death	pnc_visit_baby_time_death	No	
+2	Cause of Death	pnc_visit_baby_cause_death	No	
+2	Colour of the Skin	pnc_visit_baby_colour_skin	No	
+2	Condition of the Umbilical Cord DISCHARGE	pnc_visit_baby_condition_umbilical_co	No	
+2	Reason for ending PNC?	pnc_disch_discharge_status	No	
+2	Postpartum family planning counselling	pnc_disch_postpartum_family_plannin	No	
+2		g_counselling	No	
+2	done? Postpartum family planning methods	pnc_disch_postpartum_family_plannin	No	
+2		g_methods_provided	No	
+2	provided? Select the method provided	pnc_disch_postpartum_family_plannin	No	
+2		g_method	No	
+2	Date of Death	pnc_disch_date_death	No	
+2	Time of Death	pnc_disch_time_death	No	
+2	Cause of death (Free text)	pnc_disch_cause_death	No	
+2	Specify	pnc_disch_other_mode_delivery_notes	Yes	
+2	Facility for ART	pnc_disch_facility_art	Yes	
+2	Date of Referral	pnc_disch_date_referral	Yes	
+2	Time of Referral	pnc_disch_time_referral	Yes	
+2	Reason for Referral (Free text)	pnc_disch_reason_referral	Yes	
+2	Woman's Condition on Referral REFERRAL	pnc_disch_condition_referral	Yes	
+2	Facility	pnc_ref_facility	No	
+3	Date of Referral	pnc_ref_date_referral	Yes	
+3	Time of Referral	pnc_ref_time_referral	Yes	
+3	Reason for Referral (Free text)	pnc_ref_reason_referral	No	
+3	Woman's Condition on Referral RECORD CLOSURE	pnc_ref_condition_referral	No	
+3	Reason for ending PNC?	pnc_end_reason_ending_pnc	No	
+3	Facility for ART	pnc_end_facility_art	Yes	
+3	Date of Referral	pnc_end_date_referral	Yes	
+3	Time of Referral	pnc_end_time_referral	Yes	
+3	Reason for Referral (Free text)	pnc_end_reason_referral	Yes	
+3	Woman's Condition on Referral	pnc_end_condition_referral	Yes	
+3	Date of Death	pnc_end_date_death	Yes	
+3	Time of Death	pnc_end_time_death	Yes	

@@ -1,0 +1,379 @@
+page	label	name	required	relevance
+1	What is the reason for coming to the facility?	ld_qc_reason	Yes	
+1	Specify other medical/obstetric condition	ld_qc_reason_other	Yes	
+1	Danger signs	ld_qc_danger_signs	Yes	
+1	Specify	ld_qc_other_c	Conditional	Shown when selection includes 'other danger signs'
+1	Labour onset type	ld_qc_labour_onset_type	Yes	
+1	Time of onset of labour	ld_qc_time	Yes	
+1	Date of onset of labour	ld_qc_date	Yes	
+1	Membranes ruptured?	ld_qc_membranes_ruptured	Yes	
+1	Time membranes ruptured	ld_qc_time_membrane	Yes	
+1	Date membranes ruptured	ld_qc_date_membrane	Yes	
+1	Has she had food in 4 hours?	ld_qc_food_4_hours	Yes	
+1	Homemade medicines taken?	ld_qc_homemade_medicines_taken	Yes	
+1	Sleep OBSTETRIC HISTORY	ld_qc_sleep	Yes	
+1	Gravida	ld_ob_hist_gravida	Yes	
+1	Abortions/Miscarriages	ld_ob_hist_abortions_miscarriages	Yes	
+1	Stillbirths	ld_ob_hist_stillbirths	Yes	
+1	Live births	ld_ob_hist_live_births	Yes	
+1	Parity	ld_ob_hist_parity	Yes	
+1	Para	ld_ob_hist_para	Yes	
+1	Number of ANC visits	ld_ob_hist_number_anc_visits	Yes	
+1	LNMP	ld_ob_hist_lnmp	Yes	
+1	Gestation age	ld_ob_hist_gestation_age	Yes	
+1	Expected delivery date	ld_ob_hist_expected_delivery_date	Yes	
+1	TDV received	ld_ob_hist_tdv_received	Yes	
+1	Last HB result	ld_ob_hist_last_hb_result	Yes	
+1	Dexamethasone given	ld_ob_hist_dexamethasone_given	No	
+1	ART clinic registration number	ld_ob_hist_artnumber	Yes	
+1	Specify CURRENT LABOUR DETAILS	ld_ob_hist_other_c	Yes	
+1	Reason for coming to the facility?	ld_labour_reason_coming_facility	No	
+1	Specify	ld_labour_specify	Yes	
+1	Date of labour onset	ld_labour_date_labour_onset	Yes	
+1	Time of labour	ld_labour_time_labour_onset	Yes	
+1	Date membranes ruptured	ld_labour_date_membranes_ruptured	Yes	
+1	Time membranes ruptured	ld_labour_time_membranes_ruptured	Yes	
+1	Amount of bleeding PROFILE - CHRONIC HEALTH CONDITIONS	ld_labour_amount_bleeding	Yes	
+1	Does the woman have existing Chronic	ld_chronic_chronic_conditions	Yes	
+1	Health Conditions? Specify other chronic conditions	ld_chronic_other_notes	Yes	
+1	HIV test date	ld_chronic_hiv_test_date	Yes	
+1	ART number	ld_chronic_art_number	Yes	
+1	Facility for ART	ld_chronic_facility_art	Yes	
+1	Was the hiv test conducted?	ld_chronic_hiv_option	No	
+1	HIV test date	ld_chronic_test_date	Yes	
+1	Reasons HIV test not done	ld_chronic_hiv_outcome	No	
+1	Specify	ld_chronic_specify	Yes	
+1	Select the result of HIV test	ld_chronic_test2	No	
+1	Is the woman at high risk of HIV?	ld_chronic_test1	No	
+1	Select whether	ld_chronic_syphilis_option	No	
+1	Select the type of syphilis test that was done	ld_chronic_syphilis_details	No	
+1	Syphilis test result	ld_chronic_syphlis_results	No	
+1	Syphilis test date	ld_chronic_syphilis_date	Yes	
+1	Reason syphilis test not done	ld_chronic_not_done	No	
+1	Specify PROFILE - ALLERGIES	ld_chronic_reason	Yes	
+1	Does the woman have any allergies?	ld_allergy_allergies	No	
+1	Specify PROFILE - MEDICATIONS	ld_allergy_other_notes	Yes	
+1	Which medications is the woman currently	ld_meds_medications_currently_prescri	Yes	
+1	prescribed? Which medications is the woman currently	ld_meds_medications_currently_prescri	No	
+1		bed_2	No	
+1	prescribed? Specify other medications PROFILE - PAST SURGERIES	ld_meds_other_notes	Yes	
+1	Does the woman have any past medical and	ld_surgery_past_surgeries_done	No	
+1	surgical? Past surgeries done?	ld_surgery_past_surgeries_done_past_s	No	
+1		urgeries_done	No	
+2	Specify PROFILE - PAST PREGNANCY COMPLICATIONS	ld_surgery_other_notes	Yes	
+2	Did the woman have any of the	ld_past_compl_past_pregnancies_comp	No	
+2	complications during the past pregnancies? Specify PROFILE - VACCINE HISTORY	ld_past_compl_other_notes	Yes	
+2	The woman received tetanus doses for	ld_vaccine_received_tetanus_doses_im	Yes	
+2	immunization*? Number of under immunised tetanus doses	ld_vaccine_number_tetanus_doses	No	
+2	TTV 1 immunisation date	ld_vaccine_tt6_date	Yes	
+2	TTV 1 immunisation date	ld_vaccine_tt7_date	Yes	
+2	TTV 2 immunisation date	ld_vaccine_tt8_date	Yes	
+2	TTV 1 immunisation date	ld_vaccine_tt9_date	Yes	
+2	TTV 2 immunisation date	ld_vaccine_tt10_date	Yes	
+2	TTV 3 immunisation date	ld_vaccine_tt11_date	Yes	
+2	TTV 1 immunisation date	ld_vaccine_tt1_date	Yes	
+2	TTV 2 immunisation date	ld_vaccine_tt2_date	Yes	
+2	TTV 3 immunisation date	ld_vaccine_tt3_date	Yes	
+2	TTV 4 immunisation date	ld_vaccine_tt4_date	Yes	
+2	TTV 5 immunisation date	ld_vaccine_tt5_date	Yes	
+2	TTV 1 immunisation date	ld_vaccine_12	Yes	
+2	TTV 2 immunisation date	ld_vaccine_13	Yes	
+2	TTV 3 immunisation date	ld_vaccine_14	Yes	
+2	TTV 4 immunisation date	ld_vaccine_15	Yes	
+2	Reason Tetanus toxoid (TT) was not	ld_vaccine_reason_tetanus_toxoid_tt_n	No	
+2	conducted Specify other reasons PROFILE - WOMAN'S BEHAVIOUR	ld_vaccine_other	Yes	
+2	Daily caffeine intake	ld_behav_daily_caffeine_use	No	
+2	Recently quit tobacco products	ld_behav_recently_quit_tobacco_produ	No	
+2	Exposure to second hand smoke	ld_behav_exposure_second_hand_smo	No	
+2	Pica	ld_behav_pica	No	
+2	Alcohol Intake PHYSICAL EXAMINATION	ld_behav_alcohol	No	
+2	General condition	ld_exam_general_condition	No	
+2	Height	ld_exam_height	No	
+2	Mid Upper Arm Circumference	ld_exam_mid_upper_arm_circumferenc	No	
+2	Weight	ld_exam_weight	No	
+2	Palmar pallor?	ld_exam_palmar_pallor	No	
+2	Pale Conjunctiva?	ld_exam_pale_conjunctiva	No	
+2	Haemoglobin level	ld_exam_haemoglobin_level	No	
+2	Capillary refill	ld_exam_capillary_refill	No	
+2	Jaundice?	ld_exam_jaundice	No	
+2	Oedema	ld_exam_oedema	No	
+2	Oedema severity	ld_exam_oedema_severity	No	
+2	Eyes	ld_exam_eyes	No	
+2	Specify Eyes Other	ld_exam_eyes_other	No	Shown when selection includes 'other'
+2	Neck	ld_exam_neck	No	
+2	Specify Neck Other	ld_exam_neck_other	No	Shown when selection includes 'other'
+2	Breasts Inspection	ld_exam_breasts_inspection	No	
+2	Specify Breasts Other	ld_exam_breasts_other	No	Shown when selection includes 'other'
+2	Heart	ld_exam_heart	No	
+2	Specify Heart Other	ld_exam_heart_other	No	Shown when selection includes 'other'
+2	Lungs	ld_exam_lungs	No	
+2	Specify Lungs Other	ld_exam_lungs_other	No	Shown when selection includes 'other'
+2	Liver and Spleen	ld_exam_liver_spleen	No	
+2	Specify Liver and Spleen Other	ld_exam_liver_spleen_other	No	Shown when selection includes 'other'
+2	Abdominal Size	ld_exam_abdominal_size	No	
+2	Abdominal Shape	ld_exam_abdominal_shape	No	
+2	Specify Abdominal Shape Other	ld_exam_abdominal_shape_other	No	
+2	Presence of surgical scar	ld_exam_surgical_scar	No	
+2	Traditional tattoo	ld_exam_traditional_tattoo	No	
+2	Bladder	ld_exam_bladder	No	
+2	Fundal Height	ld_exam_fundal_height	No	
+2	Number of fetuses	ld_exam_number_fetuses	No	
+2	Lie	ld_exam_lie	No	
+2	Presentation	ld_exam_presentation	No	
+2	Position	ld_exam_position	No	
+2	Descent	ld_exam_descent	No	
+2	Contractions	ld_exam_contractions	No	
+2	Fetal Heart Rate (beats per minute)	ld_exam_fetal_heart_rate	No	
+2	Conjunctiva pale?	ld_exam_conjunctiva_pale	No	
+2	Palmer pallor?	ld_exam_palmer_pallor	No	
+2	Haemoglobin low?	ld_exam_haemoglobin_low	No	
+3	Specify	ld_exam_other_oedema	Yes	
+3	Specify Presentation FETAL PRESENTATION	ld_exam_other	Yes	
+3	What is the Presenting Part?	ld_pres_presenting_part	No	
+3	Specify Other Presenting Part	ld_pres_other_presenting_part	No	
+3	Position (Cephalic)	ld_pres_cephalic_position	No	
+3	Level in relation to ischial spines	ld_pres_level_relation_ischial_spines	No	
+3	Caput	ld_pres_caput	No	
+3	Moulding	ld_pres_moulding	No	
+3	Position (Breech) FIRST VAGINAL EXAMINATION	ld_pres_breech_position	No	
+3	Vulval Inspection	ld_ve_vulval_inspection	No	
+3	Soft tissues	ld_ve_soft_tissues	No	
+3	State of Cervix	ld_ve_state_cervix	No	
+3	Effacement (%)	ld_ve_effacement	No	
+3	Cervical Dilation (cm)	ld_ve_cervical_dilation	No	
+3	Application of presenting part	ld_ve_application	No	
+3	State of membranes	ld_ve_state_membranes	No	
+3	Date membranes ruptured	ld_ve_date_membranes_ruptured	No	
+3	Time membranes ruptured	ld_ve_time_membranes_ruptured	No	
+3	Liquor	ld_ve_liquor	No	
+3	Meconium Grade	ld_ve_meconium_grade	No	
+3	Cord	ld_ve_cord	No	
+3	What part is presenting?	ld_ve_part_presenting	No	
+3	Specify presenting part	ld_ve_specify_presenting_part	No	
+3	Position of sutures and fontanelles	ld_ve_position_sutures_fontanelles	No	
+3	Level in relation to ischial spines	ld_ve_level_relation_ischial_spines	No	
+3	Caput	ld_ve_caput	No	
+3	Moulding	ld_ve_moulding	No	
+3	Show	ld_ve_show	No	
+3	State of Cervical	ld_ve_state_cervical	Yes	
+3	Percentage of effacement	ld_ve_percentage_effacement	No	
+3	Color	ld_ve_color	No	
+3	Color	ld_ve_cold_felt_color	No	
+3	Specify	ld_ve_specify	Yes	
+3	Is the Cord Pulsating PELVIC ASSESSMENT	ld_ve_cord_pulsating	No	
+3	Shape of brim	ld_pelvic_shape_brim	No	
+3	Sacrum	ld_pelvic_sacrum	No	
+3	Sacral promontory	ld_pelvic_sacral_promontory	No	
+3	Sacrospinous ligaments	ld_pelvic_sacrospinous_ligaments	No	
+3	Ischial spines	ld_pelvic_ischial_spines	No	
+3	Station	ld_pelvic_station	No	
+3	Sub-pubic arch	ld_pelvic_sub_pubic_arch	No	
+3	Intertuberous diameter	ld_pelvic_intertuberous_diameter	No	
+3	Conclusion about pelvis	ld_pelvic_conclusion_about_pelvis	No	
+3	Anticipated course of labour and delivery	ld_pelvic_anticipated_course_labour_d	No	
+3	Moulding (checked every four hours)	ld_pelvic_moulding	No	
+3	Caput(checked every four hours) LABOUR MONITORING - VITALS	ld_pelvic_caput	No	
+3	Height	ld_mon_vitals_height_cm	Yes	
+3	Weight	ld_mon_vitals_weight	Yes	
+3	Specify Reason	ld_mon_vitals_height_weight_reason	Yes	
+3	Systolic Pressure	ld_mon_vitals_systolic	Yes	
+3	Diastolic pressure	ld_mon_vitals_diastolic	Yes	
+3	Primary diagnosis	ld_mon_vitals_primary_diagnosis	No	
+3	Specify Reason	ld_mon_vitals_blood_pressure_reason	Yes	
+3	Temperature	ld_mon_vitals_temperature	No	
+3	Pulse rate	ld_mon_vitals_pulse	Yes	
+3	Specify Reason	ld_mon_vitals_pulse_rate_reason	Yes	
+3	Respiratory rate	ld_mon_vitals_respiratory_rate	No	
+3	Oxygen saturation LABOUR MONITORING - OTHER EXAMINATIONS	ld_mon_vitals_sao2	No	
+3	Fetal heart rate	ld_mon_exam_heart	Yes	
+3	State of Membranes?	ld_mon_exam_membranes	No	
+3	State of Liquor	ld_mon_exam_state_liquor	No	
+3	What is the Grade?	ld_mon_exam_grade	No	
+3	Cervical dilation	ld_mon_exam_cervical	Yes	
+3	Umbilical Cord	ld_mon_exam_umbilical_cord	No	
+3	Enter intervention carried out	ld_mon_exam_intervention	Yes	
+4	Descent	ld_mon_exam_descent	No	
+4	Contractions (checked every hour)	ld_mon_exam_contractions	Yes	
+4	Urine Volume	ld_mon_exam_urine_volume	Yes	
+4	Urine Color	ld_mon_exam_urine_color	Yes	
+4	Urine Odour	ld_mon_exam_urine_odour	Yes	
+4	Obstetric complications	ld_mon_exam_obstetric_complications	No	
+4	Specify	ld_mon_exam_specify	Yes	
+4	Obstetric Care provided	ld_mon_exam_obstetric_care	No	
+4	Corticosteroids given? DELIVERY (SECOND STAGE)	ld_mon_exam_corticosteroids	No	
+4	Place of delivery	ld_del_place_delivery	No	
+4	Specify other facility	ld_del_specify_other_facility	No	
+4	Mode of delivery	ld_del_mode_delivery	No	
+4	Specify other mode of delivery	ld_del_specify_other_mode_delivery	No	
+4	Staff conducting delivery	ld_del_staff_conducting_delivery	No	
+4	Estimated blood loss	ld_del_estimated_blood_loss	Yes	
+4	Obstetric complications	ld_del_obstetric_complications	No	
+4	Specify other complications	ld_del_specify_other_complications	No	
+4	Obstetric care provided	ld_del_obstetric_care_provided	No	
+4	IV Fluids	ld_del_iv_fluids	No	Shown when selection includes 'Evacuation'
+4	Date IV fluids were started	ld_del_date_iv_fluids_started	No	
+4	Time started	ld_del_time_started	No	
+4	Time finished	ld_del_time_finished	No	
+4	Type of fluids	ld_del_type_fluids	No	
+4	Specify other type of fluids	ld_del_specify_other_type_fluids	No	
+4	Blood transfusion	ld_del_blood_transfusion	No	Shown when selection includes 'Evacuation'
+4	Date of Transfusion	ld_del_date_transfusion	No	
+4	Time transfusion started	ld_del_time_transfusion_started	No	
+4	Time transfusion finished	ld_del_time_transfusion_finished	No	
+4	Type of Blood	ld_del_type_blood	No	
+4	Volume (mls)	ld_del_volume_mls	No	
+4	Other evacuations	ld_del_other_evacuations	No	Shown when selection includes 'Evacuation'
+4	First name	ld_del_first_name	Yes	
+4	Last name	ld_del_last_name	Yes	
+4	APGAR score at 1 minute	ld_del_apgar_score_1_minute	Yes	
+4	APGAR score at 5 minutes	ld_del_apgar_score_5_minutes	Yes	
+4	Newborn sex	ld_del_sex	No	
+4	Newborn vitals	ld_del_vitals	No	
+4	Baby weight	ld_del_weight	Yes	
+4	Baby height	ld_del_height	Yes	
+4	Head circumference	ld_del_circumference	Yes	
+4	Tetracycline eye ointment given?	ld_del_tetracycline_eye_ointment_give	No	
+4	Any Newborn complications?	ld_del_newborn_baby_complications	No	
+4	Specify Congenital Abnormalities	ld_del_specify	No	
+4	Was resuscitation attempted?	ld_del_resuscitation_attempt	No	
+4	Type of resuscitation?	ld_del_type_resuscitation	No	
+4	Specify	ld_del_other_notes	Yes	
+4	Select the management given to newborn	ld_del_management_newborn	No	
+4	Vitamin K given?	ld_del_vitamin_k_given	No	
+4	Chlorhexidine 7.1% applied?	ld_del_chlorhexidine	No	
+4	Time and date of delivery	ld_del_time_date_delivery	No	
+4	Time of delivery	ld_del_time_delivery	Yes	
+4	Date of delivery	ld_del_date_delivery	Yes	
+4	Baby general condition at birth	ld_del_baby_general_condition_birth	No	
+4	Severity of Perineal Tear	ld_del_severity	No	
+4	Dexamethasone? NEWBORN DETAILS	ld_del_dexamethasone	No	
+4	Date of delivery	ld_nb_date_delivery	No	
+4	Time of delivery	ld_nb_time_delivery	No	
+4	Baby general condition at birth	ld_nb_baby_general_condition_birth	No	
+4	Number of babies	ld_nb_number_babies	No	
+4	First name	ld_nb_first_name	No	
+4	Last name	ld_nb_last_name	No	
+4	Newborn sex	ld_nb_newborn_sex	No	
+4	Delayed cord cutting? (1-3 minutes)	ld_nb_delayed_cord_cutting_1_3	No	
+4	APGAR score at 1 minute	ld_nb_apgar_score_1_minute	No	
+4	APGAR score at 5 minutes	ld_nb_apgar_score_5_minutes	No	
+4	Baby weight (grams)	ld_nb_baby_weight_grams	No	
+4	Baby height (cm)	ld_nb_baby_height_cm	No	
+4	Head circumference (cm)	ld_nb_head_circumference_cm	No	
+4	Tetracycline eye ointment given?	ld_nb_tetracycline_eye_ointment_given	No	
+4	Newborn baby complications	ld_nb_newborn_baby_complications	No	
+5	Specify Congenital Abnormalities	ld_nb_specify_congenital_abnormalitie	No	Shown when selection includes 'Congenital
+5	Was resuscitation attempted?	ld_nb_resuscitation_attempted	No	abnormalities' Shown when selection includes 'Asphyxia'
+5	Type of resuscitation?	ld_nb_type_resuscitation	No	
+5	Other complications notes	ld_nb_other_complications_notes	No	Shown when selection includes 'Other'
+5	Management given to newborn	ld_nb_management_given_newborn	No	Shown when selection includes 'None'
+5	Vitamin K given?	ld_nb_vitamin_k_given	No	
+5	Chlorhexidine 7.1% applied? MATERNAL & OBSTETRIC EMERGENCY	ld_nb_chlorhexidine_7_1_applied	No	
+5	Causes	ld_emerg_causes	No	
+5	Was E-MOTIVE bundle used	ld_emerg_e_motive_bundle_used	No	
+5	Early detection criteria	ld_emerg_early_detection_criteria	No	
+5	Uterine Massage	ld_emerg_uterine_massage	No	
+5	Oxytocin 10IU in 500ml NS or RL over 10	ld_emerg_oxytocin_10_iu_500ml_ns	No	
+5	mins Oxytocin 20IU in 1000ml NS or RL over 4	ld_emerg_oxytocin_20_iu_1000ml_ns	No	
+5	hrs Misoprostol 800mcg sublingual or rectal	ld_emerg_misoprostol_800mcg_sublin	No	
+5		gual_rectal	No	
+5	1g Tranexamic Acid IV slow push over 10	ld_emerg_1g_tranexamic_acid_iv_slow	No	
+5	minutes IV fluids given	ld_emerg_iv_fluids_given	No	
+5	IV fluids volume (mls)	ld_emerg_iv_fluids_volume_mls	No	
+5	Examination done	ld_emerg_examination_done	No	
+5	Examination findings	ld_emerg_examination_findings	No	
+5	Escalation done	ld_emerg_escalation_done	No	
+5	Escalation measures	ld_emerg_escalation_measures	No	
+5	Specify other escalation	ld_emerg_specify_other_escalation	No	Shown when selection includes 'Other'
+5	Retained placenta	ld_emerg_retained_placenta	No	
+5	Manual removal done	ld_emerg_manual_removal_done	No	
+5	Maternal sepsis	ld_emerg_maternal_sepsis	No	
+5	FAST M bundle given	ld_emerg_fast_m_bundle_given	No	
+5	Anticonvulsant administered	ld_emerg_anticonvulsant_administered	No	
+5	Antihypertensives administered	ld_emerg_antihypertensives_administer	No	
+5	Repair done	ld_emerg_repair_done	No	
+5	Hysterectomy done	ld_emerg_hysterectomy_done	No	
+5	Evacuation done	ld_emerg_evacuation_done	No	
+5	Misoprostol administered	ld_emerg_misoprostol_administered	No	
+5	Specify other complications	ld_emerg_specify_other_complications	No	
+5	Referral done	ld_emerg_referral_done	No	
+5	Referral destination THIRD STAGE - PLACENTA & GENITAL	ld_emerg_referral_destination	No	
+5	Oxytocin 10 IU given	ld_third_oxytocin_10_iu_given	No	
+5	Misoprostol (400/600mcg orally)	ld_third_misoprostol_400_600mcg_ora	No	
+5	Heat stable Cabitocin (100mcg IM/IV)	ld_third_heat_stable_cabitocin_100mcg	No	
+5	Ellavi drape used	ld_third_ellavi_drape_used	No	
+5	Date of delivery	ld_third_date_delivery	No	
+5	Time of delivery	ld_third_time_delivery	No	
+5	Delivery done by	ld_third_delivery_done_by	No	
+5	Cadre	ld_third_cadre	No	
+5	Mode of delivery	ld_third_mode_delivery	No	
+5	Specify other mode of delivery	ld_third_specify_other_mode_delivery	No	
+5	Place of delivery	ld_third_place_delivery	No	
+5	Specify other facility	ld_third_specify_other_facility	No	
+5	Placenta	ld_third_placenta	No	
+5	Membranes	ld_third_membranes	No	
+5	Placenta weight	ld_third_placenta_weight	No	
+5	Placenta length	ld_third_placenta_length	No	
+5	Cord length	ld_third_cord_length	No	
+5	Cord insertion	ld_third_cord_insertion	No	
+5	Specify other cord insertion	ld_third_specify_other_cord_insertion	No	
+5	Number of vessels	ld_third_number_vessels	No	
+5	Placenta condition	ld_third_placenta_condition	No	
+5	Abnormalities	ld_third_abnormalities	No	
+5	Estimated blood loss	ld_third_estimated_blood_loss	No	
+5	Cervix	ld_third_cervix	No	
+5	Perineum	ld_third_perineum	No	
+5	Specify other perineum	ld_third_specify_other_perineum	No	
+5	Degree of tear	ld_third_degree_tear	No	
+5	Repair done for Tears/ Episiotomy	ld_third_repair_done_tears_episiotomy	No	
+5	Date and time of placenta delivery	ld_third_date_time_placenta_delivery	No	
+5	Specify	ld_third_specify	Yes	
+5	Specify	ld_third_other_mode_delivery_notes	Yes	
+5	Specify	ld_third_other_tears	Yes	
+5	Severity of Tear	ld_third_severity	No	
+5	Repair done	ld_third_repair	No	
+5	Specify degree	ld_third_tears_degree	Yes	
+6	Specify IMMEDIATE POSTNATAL CHECKS - MOTHER	ld_third_other_perineum_condition	Yes	
+6	At what interval is the postnatal check	ld_post_mom_time_postnatal_check	No	
+6	Systolic Pressure	ld_post_mom_systolic_blood_pressure	Yes	
+6	Diastolic pressure	ld_post_mom_diastolic_blood_pressure	Yes	
+6	Pulse rate	ld_post_mom_pulse	No	
+6	Second Systolic Pressure	ld_post_mom_second_systolic_blood_p	Yes	
+6	Second Diastolic pressure	ld_post_mom_second_diastolic_blood_	Yes	
+6	Temperature	ld_post_mom_temperature	No	
+6	Uterus	ld_post_mom_raptured_uterus	No	
+6	Lochia?	ld_post_mom_lochia	No	
+6	Urine passed?	ld_post_mom_urinated	No	
+6	Time	ld_post_mom_time	Yes	
+6	Amount of urine	ld_post_mom_amount_urine	Yes	
+6	Color of urine IMMEDIATE POSTNATAL CHECKS - BABY	ld_post_mom_color_urine	Yes	
+6	Immediate vitals for child	ld_post_baby_vitals	No	
+6	Respiration rate	ld_post_baby_respiration_rate	No	
+6	Temperature	ld_post_baby_temperature	No	
+6	Cord bleeding?	ld_post_baby_cord_bleeding	No	
+6	Breast feeding in the first hour of birth?	ld_post_baby_breast_feeding_first_hou	No	
+6		r_birth	No	
+6	Skin to skin contact with the mother	ld_post_baby_skin_skin_contact_with_	No	
+6	(Immediate Kangaroo Mother Care) Delayed bathing?	ld_post_baby_delayed_bathing	No	
+6	Delayed cord cutting? REFERRAL	ld_post_baby_delayed_cord_cutting	No	
+6	Who is being referred	ld_ref_referred	Yes	
+6	Reason for referring mother	ld_ref_referring_mother	No	
+6	Reason for referring mother - other (specify)	ld_ref_specify	Conditional	Shown when selection includes 'other'
+6	Any other treatment given before referral?	ld_ref_treatment_given_before_referral	No	
+6	Reason for referring baby	ld_ref_baby_identifier	No	
+6	Reason for referring baby - other (specify)	ld_ref_baby_identifier_specify	Conditional	Shown when selection includes 'other reason'
+6	Any other treatment given to baby before	ld_ref_treatment_given_baby_before_r	No	
+6	referral? Date of referral	ld_ref_date_referral	Yes	
+6	Time of referral	ld_ref_time_referral	Yes	
+6	Provider who made referral	ld_ref_provider_who_made_referral	Yes	
+6	Phone number for provider	ld_ref_phone_number	Yes	
+6	Syphillis test	ld_ref_syphillis	No	
+6	Date the test was conducted	ld_ref_test	No	
+6	HIV test	ld_ref_hiv	No	
+6	Is the client on ART?	ld_ref_chronic_conditions	No	
+6	ART number	ld_ref_art_number	No	
+6	Facility for ART	ld_ref_facility_art	No	
+6	Last HB result	ld_ref_hb	No	
+6	Laboratory Tests RECORD CLOSURE	ld_ref_laboratory_tests	No	
+6	Reason for closing labour and delivery	ld_end_closing_labour_delivery	Yes	
+6	record Reason for closing labour and delivery record - other (specify)	ld_end_specify	Yes	

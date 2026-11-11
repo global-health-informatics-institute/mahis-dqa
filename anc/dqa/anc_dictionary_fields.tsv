@@ -1,0 +1,326 @@
+page	label	name	required	relevance
+1	Reason the woman came to the facility today	anc_qc_reason_visit	Yes	
+1	What danger signs does the woman have?	anc_qc_danger_signs_present	No	
+1	Specify the danger signs	anc_qc_specify_danger_signs	Conditional	Shown when selection includes 'Other'
+1	Do you want to refer the woman?	anc_qc_referral_required	Conditional	Shown when selection includes 'None'
+1	What are the specific health concerns for the patient?	anc_qc_specific_health_concerns	No	
+1	What are the specific health concerns for the patient - other (specify)	anc_qc_other_specify	Conditional	Shown when selection includes 'Other'
+1	Does the woman have any previous ANC visit/s done at any facility?	anc_qc_previous_visit	Yes	
+1	Enter number of previous ANC visits ANC ENROLMENT	anc_qc_number_previous_visits	No	
+1	Is the pregnancy confirmed?	anc_enrol_pregnancy_confirmed	Yes	
+1	Was the pregnancy planned? CURRENT PREGNANCY	anc_enrol_pregnancy_planned	Conditional	Shown when 'Pregnancy confirmed' has a value
+1	Gestation age to be used	anc_curr_preg_gestation_age_used	Yes	
+1	LNMP date	anc_curr_preg_lmnp_date	Yes	
+1	Gestation age	anc_curr_preg_gestation_weeks	No	
+1	EDD	anc_curr_preg_estimated_date_delivery	No	
+1	Date for ultrasound	anc_curr_preg_date	Yes	
+1	Gestation age from ultrasound	anc_curr_preg_gestation_age_from_ultr	Yes	
+1	LMNP date from ultrasound	anc_curr_preg_estimated_date	No	
+1	EDD from ultrasound	anc_curr_preg_date_delivery	No	
+1	Enter gestation age by palpation (weeks)	anc_curr_preg_gestation	Yes	
+1	EDD	anc_curr_preg_delivery_day	No	
+1	TDV started at what gestation age?	anc_curr_preg_tdv_gestation_age	No	
+1	LNMP Known?	anc_curr_preg_lnmp_known	No	
+1	Ultrasound done?	anc_curr_preg_ultrasound_done	No	
+1	The woman received tetanus doses for	anc_curr_preg_received_tetanus_doses	Yes	
+1	immunization*? Number of under immunised tetanus doses	anc_curr_preg_number_tetanus_doses	No	
+1	TTV 1 immunisation date	anc_curr_preg_tt6_date	Yes	
+1	TTV 1 immunisation date	anc_curr_preg_tt7_date	Yes	
+1	TTV 2 immunisation date	anc_curr_preg_tt8_date	Yes	
+1	TTV 1 immunisation date	anc_curr_preg_tt9_date	Yes	
+1	TTV 2 immunisation date	anc_curr_preg_tt10_date	Yes	
+1	TTV 3 immunisation date	anc_curr_preg_tt11_date	Yes	
+1	TTV 1 immunisation date	anc_curr_preg_tt1_date	Yes	
+1	TTV 2 immunisation date	anc_curr_preg_tt2_date	Yes	
+1	TTV 3 immunisation date	anc_curr_preg_tt3_date	Yes	
+1	TTV 4 immunisation date	anc_curr_preg_tt4_date	Yes	
+1	TTV 5 immunisation date	anc_curr_preg_tt5_date	Yes	
+1	TTV 1 immunisation date	anc_curr_preg_12	Yes	
+1	TTV 2 immunisation date	anc_curr_preg_13	Yes	
+1	TTV 3 immunisation date	anc_curr_preg_14	Yes	
+1	TTV 4 immunisation date	anc_curr_preg_15	Yes	
+1	Reason Tetanus toxoid (TT) was not	anc_curr_preg_reason_tetanus_toxoid_t	No	
+1	conducted Specify other reasons PAST OBSTETRIC HISTORY	anc_curr_preg_other	Yes	
+1	Gravida	anc_ob_hist_gravida	Yes	
+1	Abortions/Miscarriages	anc_ob_hist_abortions_miscarriages	Yes	
+1	Stillbirths	anc_ob_hist_stillbirths	Yes	
+1	Live births	anc_ob_hist_live_births	No	
+1	Parity	anc_ob_hist_parity	No	
+1	What was the gestational age at last live	anc_ob_hist_gestation_age_last_live_bi	No	
+1	birth? Last live birth had congenital abnormalities?	anc_ob_hist_last_live_birth_congenital	No	
+1	Did the woman have any of the	anc_ob_hist_past_pregnancies_complic	Yes	
+1	complications during the past pregnancies? Specify other complications	anc_ob_hist_other_complications_notes	Yes	
+1	Was last live birth preterm?	anc_ob_hist_last_live_birth_preterm	No	
+1	Was last live birth full term (8 to 34 weeks)?	anc_ob_hist_last_live_birth_preterm_fu	No	
+1	Specify GYNAECOLOGICAL HISTORY	anc_ob_hist_other_notes	Yes	
+1	Age at menarche	anc_gynae_age_menarche	Yes	
+1	Length of menstrual flow	anc_gynae_length_menstrual_flow_day	Yes	
+1	Length of menstrual flow	anc_gynae_length_menstrual_flow_we	No	
+1	Regularity of menstrual flow	anc_gynae_regularity_menstrual_flow	Yes	
+1	Amount of menstrual flow	anc_gynae_amount_menstrual_flow	Yes	
+1	Dysmenorrhea	anc_gynae_dysmenorrhea	Yes	
+1	Gynaecological surgery	anc_gynae_gynaecological_surgery	No	
+1	Other	anc_gynae_other_notes	No	
+2	Past surgeries	anc_med_hist_past_surgeries	No	
+2	Specify other surgery	anc_med_hist_other_surgery_notes	Conditional	Shown when selection includes 'Other'
+2	Allergies	anc_med_hist_allergies	No	
+2	Specify other allergy	anc_med_hist_other_allergy_notes	Conditional	Shown when selection includes 'Other'
+2	Chronic conditions	anc_med_hist_chronic_conditions	No	
+2	Specify other chronic conditions	anc_med_hist_other_chronic_notes	Conditional	Shown when selection includes 'Other'
+2	HIV test date	anc_med_hist_hiv_test_date	Conditional	Shown when selection includes 'hiv positive'
+2	Is the client on ART?	anc_med_hist_client_art	Conditional	Shown when selection includes 'hiv positive'
+2	ART number	anc_med_hist_art_number	Conditional	Shown when selection includes 'hiv positive'
+2	Facility for ART	anc_med_hist_facility_art	Conditional	Shown when selection includes 'hiv positive'
+2	Does the woman have any past medical and	anc_med_hist_past_surgeries_done	No	
+2	surgical? Past surgeries done?	anc_med_hist_past_surgeries_done_pas	No	
+2	Specify	anc_med_hist_other_notes	Yes	
+2	Does the woman have any allergies?	anc_med_hist_allergies_allergies	No	
+2	Was the hiv test conducted?	anc_med_hist_hiv_option	No	
+2	Reasons HIV test not done	anc_med_hist_hiv_outcome	No	
+2	Specify	anc_med_hist_specify	Yes	
+2	Select the result of HIV test	anc_med_hist_test2	No	
+2	Is the woman at high risk of HIV?	anc_med_hist_test1	No	
+2	Select whether	anc_med_hist_syphilis_option	No	
+2	Select the type of syphilis test that was done	anc_med_hist_syphilis_details	No	
+2	Syphilis test result	anc_med_hist_syphlis_results	No	
+2	Syphilis test date	anc_med_hist_syphilis_date	Yes	
+2	Reason syphilis test not done	anc_med_hist_not_done	No	
+2	Specify CURRENT MEDICATIONS	anc_med_hist_reason	Yes	
+2	Which medications is the woman currently	anc_meds_medications_currently_presc	Yes	
+2	prescribed? Specify other medications WOMAN'S BEHAVIOUR & LIFESTYLE	anc_meds_other_medication_notes	Conditional	Shown when selection includes 'Other'
+2	Daily caffeine use	anc_behav_daily_caffeine_use	Yes	
+2	Misuse of drugs	anc_behav_misuse_drugs	Yes	
+2	Recently quit tobacco products	anc_behav_recently_quit_tobacco_prod	Yes	
+2	Exposure to second hand smoke	anc_behav_exposure_second_hand_sm	Yes	
+2	Pica	anc_behav_pica	Yes	
+2	Alcohol Intake VITAL SIGNS	anc_behav_alcohol	Yes	
+2	Height	anc_vitals_height_cm	Yes	
+2	Weight	anc_vitals_weight	Yes	
+2	Pre-gestation weight	anc_vitals_pre_gestation_weight	Yes	
+2	Specify Reason	anc_vitals_height_weight_reason	Yes	
+2	Systolic Pressure	anc_vitals_systolic	Yes	
+2	Diastolic pressure	anc_vitals_diastolic	Yes	
+2	Primary diagnosis	anc_vitals_primary_diagnosis	No	
+2	Specify Reason	anc_vitals_blood_pressure_reason	Yes	
+2	Temperature	anc_vitals_temperature	No	
+2	Pulse rate	anc_vitals_pulse	Yes	
+2	Specify Reason	anc_vitals_pulse_rate_reason	Yes	
+2	Respiratory rate	anc_vitals_respiratory_rate	No	
+2	Oxygen saturation GENERAL EXAMINATION	anc_vitals_sao2	No	
+2	Kempt	anc_gen_exam_kempt	Yes	
+2	Gait	anc_gen_exam_gait	Yes	
+2	Nutritional status	anc_gen_exam_nutritional_status	Yes	
+2	Is pallor present?	anc_gen_exam_pallor_present	No	
+2	Any action taken?	anc_gen_exam_action_taken	No	
+2	Specify the action taken	anc_gen_exam_action_pallor	No	
+2	MUAC - Number	anc_gen_exam_muac	No	
+2	Is oedema present?	anc_gen_exam_oedema_present	No	
+2	Select the type of Oedema the woman has?	anc_gen_exam_select_type_oedema	No	
+2	Severity of Oedema?	anc_gen_exam_severity_oedema	No	
+2	Varicose Veins Present	anc_gen_exam_varicose_veins_present	No	
+2	Any deformities present?	anc_gen_exam_deformities_present	No	
+2	Specify the deformity	anc_gen_exam_specify_deformity	No	
+2	Cough	anc_gen_exam_cough	No	
+2	Rapid breathing	anc_gen_exam_rapid_breathing	No	
+2	Slow breathing	anc_gen_exam_slow_breathing	No	
+2	Wheezing	anc_gen_exam_wheezing	No	
+2	Rales	anc_gen_exam_rales	No	
+2	Respiratory distress	anc_gen_exam_respiratory_distress	No	
+3	Other findings	anc_gen_exam_other_findings	No	
+3	Specify other respiratory findings	anc_gen_exam_specify_other_respirato	No	
+3	Duration of cough	anc_gen_exam_duration_cough	No	
+3	Weight loss	anc_gen_exam_weight_loss	No	
+3	Fever	anc_gen_exam_fever	No	
+3	Cough type	anc_gen_exam_cough_type	No	
+3	Night sweats MATERNAL EXAMINATION	anc_gen_exam_night_sweats	No	
+3	No breast exam conducted	anc_mat_exam_no_breast_exam_condu	No	
+3	Normal breast exam result	anc_mat_exam_normal_breast_exam_r	No	
+3	Bleeding	anc_mat_exam_bleeding	No	
+3	Nodule	anc_mat_exam_nodule	No	
+3	Rapid breathing	anc_mat_exam_rapid_breathing	No	
+3	Discharge	anc_mat_exam_discharge	No	
+3	Flushing	anc_mat_exam_flushing	No	
+3	Local pain	anc_mat_exam_local_pain	No	
+3	Increased temperature	anc_mat_exam_increased_temperature	No	
+3	Breast	anc_mat_exam_breast	No	
+3	Tenderness	anc_mat_exam_tenderness	No	
+3	Other findings	anc_mat_exam_other_findings	No	
+3	Other general exam findings	anc_mat_exam_other_general_exam_fi	No	
+3	Is vaginal examination done?	anc_mat_exam_vaginal_examination_d	No	
+3	Digital	anc_mat_exam_digital	No	
+3	Digital examination findings notes	anc_mat_exam_digital_examination_fi	No	
+3	Speculum	anc_mat_exam_speculum	No	
+3	Peculum examination findings notes	anc_mat_exam_peculum_examination_	No	
+3	No vaginal inspection done	anc_mat_exam_no_vaginal_inspection_	No	
+3	Nothing abnormal observed	anc_mat_exam_nothing_abnormal_obs	No	
+3	Abnormal discharge	anc_mat_exam_abnormal_discharge	No	
+3	Papules	anc_mat_exam_papules	No	
+3	Ulcers	anc_mat_exam_ulcers	No	
+3	Warts	anc_mat_exam_warts	No	
+3	Vesicles	anc_mat_exam_vesicles	No	
+3	Genital pain	anc_mat_exam_genital_pain	No	
+3	Amniotic fluid level	anc_mat_exam_amniotic_fluid_level	No	
+3	Respiratory exam findings	anc_mat_exam_respiratory_exam_findi	No	
+3	Specify other respiratory findings	anc_mat_exam_other_respiratory_findi	Yes	
+3	Breast examinations results	anc_mat_exam_breast_exam	No	
+3	Vaginal inspection	anc_mat_exam_vaginal_inspection	No	
+3	Is pallor present?	anc_mat_exam_pallor	No	
+3	Any action taken?	anc_mat_exam_action_pallor	No	
+3	Specify the action taken	anc_mat_exam_other_notes	Yes	
+3	Vaginal examination done?	anc_mat_exam_cervical_exam	No	
+3	Type of vaginal examination done?	anc_mat_exam_type_vaginal_examinat	No	
+3	Is oedema present?	anc_mat_exam_oedema	No	
+3	Select the type of Oedema the woman has?	anc_mat_exam_oedema_types	No	
+3	Severity of Oedema? ABDOMINAL & FETAL ASSESSMENT	anc_mat_exam_oedema_severity	No	
+3	Symphysis-fundal height (SFH)	anc_abd_symphysis_fundal_height_sfh	Yes	
+3	Is number of fetuses known?	anc_abd_number_fetuses_known	No	
+3	Fetal heartbeat present?	anc_abd_fetal_heartbeat_present	No	
+3	Fetal rate	anc_abd_fetal_rate	No	
+3	Repeated fetal rate	anc_abd_repeated_fetal_rate	No	
+3	Fetal heart rate regularity	anc_abd_fetal_heart_rate_regularity	No	
+3	Select fetal presentation	anc_abd_select_fetal_presentation	No	
+3	Specify the Fetal presentation	anc_abd_specify_fetal_presentation	No	
+3	Number of fetuses PRESENTING SIGNS & SYMPTOMS	anc_abd_number_fetuses	No	
+3	Is the abdomen shiny?	anc_signs_abdomen_shiny	No	
+3	Is there traumatic injury to abdomen?	anc_signs_there_traumatic_injury_abdo	No	
+3	Specify the injury	anc_signs_specify_injury	No	
+3	Any other clinical enquiry done?	anc_signs_other_clinical_enquiry_done	No	
+3	Specify the clinical enquiry provided	anc_signs_specify_clinical_enquiry_pr	No	
+3	Has the woman been subjected to any form	anc_signs_subjected_form_violence	No	
+3	of violence? Physical violence	anc_signs_physical_violence	No	
+3	Sexual violence	anc_signs_sexual_violence	No	
+3	Psychological/emotional abuse	anc_signs_psychological_emotional_ab	No	
+3	Physiological violence	anc_signs_physiological_violence	No	
+3	Stalking	anc_signs_stalking	No	
+3	Other	anc_signs_other	No	
+3	Violence by other family members (specify)	anc_signs_violence_by_other_family_	No	
+4	Any injury present?	anc_signs_injury_present	No	
+4	Reason clinical enquiry was not done	anc_signs_reason_not_done	No	
+4	What type of Intimate Partner Violence the woman has been subjected to? LABORATORY INVESTIGATIONS	anc_signs_type_ipv_subjected	No	
+4	Pregnancy Test Result	anc_lab_pregnancy_status	No	
+4	Urine Protein	anc_lab_urine_protein	No	
+4	Hb(g/dL)	anc_lab_hb_g_d_l	No	
+4	Malaria Test (Test Type)	anc_lab_malaria_test	No	
+4	MRDT results	anc_lab_m_rdt_results	No	
+4	Malaria Parasites Result	anc_lab_malaria_parasites_result	No	
+4	Syphilis Test Result	anc_lab_syphilis_test_result	No	
+4	Hepatitis B	anc_lab_hepatitis_b	No	
+4	HIV Test	anc_lab_hiv_test	No	
+4	Blood group rhesus factor	anc_lab_blood_group_rhesus_factor	No	
+4	Random Blood Sugar (RBS) URINE TESTS	anc_lab_random_blood_sugar	No	
+4	Select Wether	anc_urine_urine_test_status	No	
+4	Select the urine test conducted	anc_urine_urine_test_conducted	No	
+4	Midstream urine culture result	anc_urine_midstream_urine_culture_re	No	
+4	Dipstick test result - nitrites	anc_urine_nitrites_dipstick_test_result	No	
+4	Dipstick test result - leukocytes	anc_urine_leukocytes_dipstick_test_res	No	
+4	Reason urine test not done	anc_urine_reason_urine_test_not_done	No	
+4	Other (specify) reason urine test not done TB SCREENING	anc_urine_other_specify_reason_urine_	No	Shown when selection includes 'Other'
+4	TB Screening	anc_tb_tb_screening_status	No	
+4	TB Screening Result	anc_tb_tb_screening_result	No	
+4	TB Screening Date	anc_tb_tb_screening_date	No	
+4	Reason TB_Screening not done	anc_tb_reason_tb_screening_not_done	No	
+4	Specify ULTRASOUND	anc_tb_reason_tb_test_not_done	No	Shown when selection includes 'Other'
+4	What is the status of the ultrasound?	anc_uss_ultrasound_scan_status	No	
+4	Ultrasound Scan Date	anc_uss_ultrasound_scan_date	No	
+4	Reason ultrasound not done	anc_uss_reason_ultrasound_not_done	No	
+4	Specify other reason for ultrasound not done	anc_uss_specify_other_reason_ultrasou	No	
+4	Amniotic fluid level detected during	anc_uss_evidence_amniotic_fluid	No	
+4	ultrasound Amniotic fluid level results	anc_uss_amniotic_fluid_level_results	No	
+4	Location of the placenta detected during ultrasound INTIMATE PARTNER VIOLENCE (IPV)	anc_uss_location_placenta_detected_du	No	
+4	IPV Status	anc_ipv_ipv_status	No	
+4	Intimate partner firstline support provided?	anc_ipv_intimate_info	No	
+4	What additional care provided?	anc_ipv_additional_care_provided	No	
+4	Safety assessment conducted?	anc_ipv_safety_assessment	No	
+4	Has the physical violence happened more	anc_ipv_physical_violence	No	
+4	often or gotten worse over the past 6 Has he ever beaten you when you were	anc_ipv_beaten_when_pregnant	No	
+4	months? pregnant? Has he ever threatened you with a weapon?	anc_ipv_threatened_with_weapon	No	
+4	Is he violently and constantly jealous of	anc_ipv_violently_constantly_jealous	No	
+4	you? Has he ever tried to strangle you?	anc_ipv_tried_strangle	No	
+4	Do you believe he could kill you?	anc_ipv_he_could_kill	No	
+4	Referrals made as part of first-line support? SYMPTOMS & FOLLOW-UP	anc_ipv_first_line_support	No	
+4	What medication supplements is the woman	anc_fup_medical_follow_up	No	
+4	currently taking? Specify	anc_fup_other_reason_tb_screening_no	No	Shown when selection includes 'Other'
+4	What side effects does the woman have due	anc_fup_side_effects	No	
+4	to medication supplements? What persistent behaviour does the woman	anc_fup_abnormal_bizzarre_behaviour	No	
+4	has? What persistent and Physiological symptoms does the woman has? COUNSELLING	anc_fup_persistent_symptom	No	
+4	Behavior counselling done	anc_couns_behaviour_counselling	No	
+4	Reason if any behaviour counselling not	anc_couns_reason_behaviour_counselli	No	
+4	conducted? Reason if any behaviour counselling not	anc_couns_other_specify	No	Shown when selection includes 'Other'
+4	conducted - other (specify) Which clinical counselling done?	anc_couns_clinical_counselling	No	
+4	Reason if any clinical counselling was not	anc_couns_reason_clinical_counselling	No	
+4	done? Reason if any clinical counselling was not	anc_couns_reason_clinical_counselling	No	Shown when selection includes 'Other'
+4	done - other (specify) Which diet counselling done?	anc_couns_counselling_diet	No	
+4	Reason if any diet counselling was not done?	anc_couns_reason_diet_counselling_no	No	
+4	Reason if any diet counselling was not done	anc_couns_reason_diet_counselling_no	No	Shown when selection includes 'Other'
+4	- other (specify) Which physiological counselling done?	anc_couns_psychosocial_counseling	No	
+4	Reason if any physiological counselling was	anc_couns_reason_physiological_couns	No	
+4	not done? Reason if any physiological counselling was	anc_couns_reason_physiological_couns	No	Shown when selection includes 'Other'
+4	not done - other (specify) Which preventive counselling done?	anc_couns_preventive_counselling	No	
+4	Reason if any preventive counselling was not done?	anc_couns_reason_preventive_counsell	No	
+5	Reason if any preventive counselling was not done - other (specify) DIAGNOSIS	anc_couns_reason_preventive_counsell	No	Shown when selection includes 'Other'
+5	Diagnosis	anc_dx_diagnosis	No	
+5	Other Diagnosis DEWORMING & MALARIA PREVENTION	anc_dx_other_diagnosis	No	Shown when 'diagnosisCheckboxes' includes 'None'
+5	Was preventative antihelminthic treatment	anc_malaria_antihelminthic_treatment	Yes	
+5	provided? Preventative antihelminthic treatment	anc_malaria_antihelminthic_treatment_	Conditional	Shown when 'antihelminthic treatment' = 'Yes'
+5	provided Reason no preventative treatment provided	anc_malaria_no_preventative_treatment	Conditional	Shown when 'antihelminthic treatment' = 'No'
+5	Reason no preventative treatment provided -	anc_malaria_specify	Conditional	Shown when 'antihelminthic treatment' = 'No' and 'no
+5	other (specify) Was counselling on malaria prevention	anc_malaria_counselling_malaria_prev	Yes	preventative treatment provided' = 'Other'
+5	conducted Reason no counselling on malaria prevention	anc_malaria_counselling_malaria_prev	Conditional	Shown when 'counselling on malaria prevention' =
+5	was not conducted Reason no counselling on malaria prevention was not conducted - other (specify) IMMUNISATION	anc_malaria_other_specify	Conditional	'No' Shown when 'counselling on malaria prevention' = 'No' and 'counselling on malaria prevention not conducted' = 'Other'
+5	New dose of TDV given?	anc_imm_tdv	No	
+5	Hepatitis B vaccine given?	anc_imm_hepatitis_b_vaccine_given	No	
+5	Hepatitis B vaccine given	anc_imm_hepatitis_b_vaccine_given_h	No	Shown when 'Hepatitis B vaccine given?' = 'Yes'
+5	Hep B-2 Date	anc_imm_hep_b_2_date	No	Shown when 'Hepatitis B vaccine given?' = 'Yes'
+5	Reason Hepatitis B vaccination not	anc_imm_reason_hepatitis_b_vaccinati	No	Shown when 'Hepatitis B vaccine given?' = 'No'
+5	conducted Hepatitis B vaccine given - other (specify) MEDICATION DISPENSED	anc_imm_hepatitis_b_not_conducted_o	No	Shown when 'Hepatitis B vaccine given?' = 'No' and 'Hepatitis B vaccination not conducted' = 'Other'
+5	Aspirin provided?	anc_disp_aspirin_provided	No	
+5	Amount of daily aspirin provided until	anc_disp_amount_daily_aspirin_provid	No	Shown when 'Aspirin provided' = 'Yes'
+5	delivery Reason aspirin not prescribed	anc_disp_reason_aspirin_not_prescribe	No	Shown when 'Aspirin provided' = 'No'
+5	Reason aspirin not prescribed - other	anc_disp_specify	No	Shown when 'Aspirin provided' = 'No' and 'Reason
+5	(specify) Sulfadoxine Pyrimethamine (SP)	anc_disp_sp	No	aspirin not prescribed' = 'Other'
+5	Number of tablets given	anc_disp_number_sp_tablets_given	No	Shown when 'SP' = 'Yes'
+5	Iron prescribed?	anc_disp_iron_prescription	No	
+5	Type of Iron supplement dosage provided	anc_disp_type_iron_supplement_dosag	No	Shown when 'Iron prescription' = 'Yes'
+5	Amount of Iron provided till delivery in mg	anc_disp_iron_amount	No	Shown when 'Iron prescription' = 'Yes'
+5	Reason Iron was not prescribed	anc_disp_iron_folic_acid_not_prescribe	No	Shown when 'Iron prescription' = 'No'
+5	Reason Iron was not prescribed - other	anc_disp_iron_folic_acid_not_prescribe	No	Shown when 'Iron prescription' = 'No' and 'Iron and
+5	(specify) Daily dose of folic acid prescribed?	anc_disp_folic_acid	Yes	folic acid not prescribed' = 'Other'
+5	Amount of Folic acid prescribed till delivery	anc_disp_amount_folic_acid	No	Shown when 'Folic acid' = 'Yes'
+5	in mg Reason folic acid was not prescribed	anc_disp_folic_acid_not_prescribed	No	Shown when 'Folic acid' = 'No'
+5	Reason folic acid was not prescribed - other	anc_disp_folic_acid_not_prescribed_sp	No	Shown when 'Folic acid' = 'No' and 'Folic acid not
+5	(specify) Vitamin A prescribed?	anc_disp_vitamin_prescription	No	prescribed' = 'Other'
+5	Type of Vitamin A dosage provided	anc_disp_type_vitamin_dosage	No	Shown when 'Vitamin A prescription' = 'Yes'
+5	Amount of Vitamin prescribed till delivery	anc_disp_vitamin_amount	No	Shown when 'Vitamin A prescription' = 'Yes'
+5	in mg Reason vitamin A not prescribed	anc_disp_vitamin_not_prescribed	No	Shown when 'Vitamin A prescription' = 'No'
+5	Reason vitamin A not prescribed - other	anc_disp_other_specify	No	Shown when 'Vitamin A prescription' = 'No' and
+5	(specify) ITN Given?	anc_disp_insecticide_treated_net_given	No	'vitamin A not prescribed' = 'Other'
+5	HIV Positive?	anc_disp_hiv_positive	No	
+5	ARVs Given?	anc_disp_arv_drugs_received	No	Shown when 'HIV Positive' = 'Yes'
+5	CPT Given?	anc_disp_cpt_given	No	Shown when 'HIV Positive' = 'Yes'
+5	Nevirapine syrup Given?	anc_disp_nevirapine_syrup_given	No	Shown when 'HIV Positive' = 'Yes'
+5	Nevirapine syrup in (MLs) volume MLs PREGNANCY OUTCOME	anc_disp_nevirapine_syrup_mls_volum	No	Shown when 'Nevirapine syrup given' = 'Yes' and 'HIV Positive' = 'Yes'
+5	What is the outcome of the pregnancy?	anc_outcome_anc_pregnancy_outcome	Yes	
+5	What is the outcome of the pregnancy - other	anc_outcome_pregnancy_outcome_not	Conditional	Shown when 'ANC pregnancy outcome' = 'Other
+5	(specify) Date of death	anc_outcome_date_death	Conditional	outcome' Shown when 'ANC pregnancy outcome' = 'Death'
+5	Cause of Death	anc_outcome_cause_death	Conditional	Shown when 'ANC pregnancy outcome' = 'Death'
+5	Estimated date of delivery	anc_outcome_estimated_date_delivery	Conditional	Shown when 'ANC pregnancy outcome' = 'Live birth'
+5	Place of delivery	anc_outcome_place_delivery	Conditional	Shown when 'ANC pregnancy outcome' = 'Live birth'
+5	Place of delivery - other (specify)	anc_outcome_specify	Conditional	Shown when 'Place of Delivery' = 'Other'
+5	Preterm birth	anc_outcome_preterm_birth	Conditional	Shown when 'ANC pregnancy outcome' = 'Live birth'
+5	Mode of delivery	anc_outcome_mode_delivery	Conditional	Shown when 'ANC pregnancy outcome' = 'Live birth'
+5	Birth weight (grams) REFERRAL	anc_outcome_weight	Conditional	Shown when 'ANC pregnancy outcome' = 'Live birth'
+5	Referral for urgent care	anc_ref_referral_urgent_care	Yes	
+5	Reason for referral	anc_ref_reason_referral	No	
+5	Other reasons for referral	anc_ref_other_reasons_referral	No	Shown when 'Reason for referral' = 'Referral for other
+5	Any treatment given before referral?	anc_ref_treatment_given_before_referr	Yes	general services'
+5	Summary of current condition and treatment	anc_ref_summary_current_condition_tr	No	Shown when 'Any treatment given before referral' =
+5	provided on referral? Provisional Diagnosis	anc_ref_provisional_diagnosis	Yes	'Yes'
+5	Facility	anc_ref_referral_facility	Yes	
+5	Department	anc_ref_department	No	
+5	Contact Person	anc_ref_contact_person	No	
+5	Accompanying Staff	anc_ref_accompanying_staff	No	
+5	Transport Type	anc_ref_mode_transport	No	
+5	Provider’s phone number	anc_ref_provider_s_phone_number	No	
+6	Referral Appointment Date	anc_ref_date_referral_made	Yes	
+6	Referral Appointment Time	anc_ref_time_referral_made	Yes	
+6	Referral notes	anc_ref_referral_notes	Yes	

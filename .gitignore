@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# everything the scripts produce can contain patient-level data: never commit it
+**/output/
+shared/
+*.xlsx
+*.csv
+*.pdf
+
+# python
+__pycache__/
+*.pyc
+.venv/
